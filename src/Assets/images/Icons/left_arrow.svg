@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <polygon id="left-arrow-a" points="23.532 3.507 21.025 1 7 15.025 21.025 29.05 23.532 26.543 12.015 15.025"/>
+  </defs>
+  <use fill="#FFF" xlink:href="#left-arrow-a"/>
+</svg>

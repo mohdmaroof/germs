@@ -1,0 +1,22 @@
+.nav-tabs {
+  .nav-link {
+    &.active {
+      background-color: transparent;
+      padding-left: 0;
+      padding-right: 0;
+      border-bottom: 2px solid #fa4a3b;
+      border-radius: 0;
+      border-color: #fff #fff #fa4a3b;
+      color: #fa4a3b;
+      cursor: pointer;
+      &:hover {
+        color: #fa4a3b;
+        border-bottom: 2px solid #fa4a3b;
+      }
+    }
+    &:hover {
+      border-color: #fff;
+      cursor: pointer;
+    }
+  }
+}

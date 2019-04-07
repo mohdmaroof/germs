@@ -1,0 +1,158 @@
+/* Landing Page CSS */
+
+.goHomeIcon {
+  bottom: 10%;
+  right: 50%;
+  left: 50%;
+  top: 90%;
+}
+
+.designStudioLogo {
+  height: 100vh;
+  position: relative;
+}
+.designStudioLogo .logoCenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.very-slow-animation {
+  animation-duration: 5s !important;
+}
+
+/* Home Page CSS */
+
+.brand-color {
+  color: #fa4a3b !important;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #fa4a3b;
+}
+
+.brand-border-left {
+  &:before {
+    content: "";
+    border-left: 3px solid #fa4a3b !important;
+    position: absolute;
+    height: 14px;
+    left: -31px;
+    top: 10px;
+  }
+}
+
+.font-4em {
+  font-size: 4em;
+  line-height: 4.5rem;
+}
+
+.home_page_visual {
+  position: relative;
+  margin-right: -15px;
+  margin-left: -15px;
+  z-index: -1;
+  left: 0;
+  top: -20%;
+}
+
+.brand-gradient {
+  background-image: linear-gradient(247deg, #fd427c, #fa311f) !important;
+  border-radius: 30px;
+  box-shadow: 0px 10px 50px 4px rgba(51, 51, 51, 0.38);
+}
+
+.brand-gradient:focus {
+  box-shadow: 0px 10px 50px 4px rgba(51, 51, 51, 0.38);
+}
+
+.brand-gradient-freebie {
+  background-image: linear-gradient(247deg, #fd427c, #fa311f) !important;
+  border-radius: 30px;
+}
+
+.brand-gradient-freebie:focus {
+  box-shadow: 0px 10px 50px 4px rgba(51, 51, 51, 0.38);
+}
+
+.hire-button {
+  margin-top: 10%;
+}
+
+.service-margin {
+  margin-top: -10%;
+}
+
+.hireUs {
+  padding: 1rem 4rem;
+}
+
+.height-75 {
+  height: 75px;
+}
+
+/* Contact page CSS */
+
+use:hover {
+  fill: #333;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #fa4a3b;
+  background-color: #fa4a3b;
+}
+
+.custom-control-label::before {
+  box-shadow: none !important;
+}
+
+.file {
+  position: absolute;
+  right: 20px;
+  top: -35px;
+}
+
+.file-icon {
+  width: 35px;
+}
+
+.file-image-icon {
+  position: absolute;
+  left: 0px;
+  z-index: 9;
+  width: 35px;
+  top: 0;
+  opacity: 0;
+  display: block;
+  height: 35px;
+}
+
+.backArrow {
+  width: 20px;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-8 {
+  font-size: 8px;
+}
+
+.team-social {
+  width: 30px;
+  position: relative;
+  left: -4px;
+  top: 4px;
+}

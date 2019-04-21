@@ -9,12 +9,12 @@ import {
   FreebiesDeep,
   Team
 } from "./Germs";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { hashHistory, Route } from "react-router-dom";
 
 const Dasboard = () => {
   return (
     <React.Fragment>
-      <Router>
+      <hashHistory>
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/homepage" component={HomePage} />
         <Route exact path="/contact" component={Contact} />
@@ -23,7 +23,7 @@ const Dasboard = () => {
         <Route exact path="/freebies" component={Freebies} />
         <Route exact path="/freebies-deep" component={FreebiesDeep} />
         <Route exact path="/team" component={Team} />
-      </Router>
+      </hashHistory>
     </React.Fragment>
   );
 };

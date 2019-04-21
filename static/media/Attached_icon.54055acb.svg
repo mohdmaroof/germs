@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <linearGradient id="attached_icon-a" x1="84.117%" x2="6.063%" y1="0%" y2="85.103%">
+      <stop offset="0%" stop-color="#FD427C"/>
+      <stop offset="100%" stop-color="#FA311F"/>
+    </linearGradient>
+    <filter id="attached_icon-b" width="279.8%" height="279.8%" x="-89.9%" y="-89.9%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8.092"/>
+    </filter>
+    <linearGradient id="attached_icon-c" x1="82.283%" x2="18.765%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FD427C"/>
+      <stop offset="100%" stop-color="#FA311F"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(8 5)">
+    <circle cx="18.5" cy="28.5" r="13.5" fill="url(#attached_icon-a)" filter="url(#attached_icon-b)"/>
+    <circle cx="18" cy="18" r="18" fill="url(#attached_icon-c)"/>
+    <path fill="#FFF" d="M22.5,12 L22.5,23.5 C22.5,25.71 20.71,27.5 18.5,27.5 C16.29,27.5 14.5,25.71 14.5,23.5 L14.5,11 C14.5,9.62 15.62,8.5 17,8.5 C18.38,8.5 19.5,9.62 19.5,11 L19.5,21.5 C19.5,22.05 19.05,22.5 18.5,22.5 C17.95,22.5 17.5,22.05 17.5,21.5 L17.5,12 L16,12 L16,21.5 C16,22.88 17.12,24 18.5,24 C19.88,24 21,22.88 21,21.5 L21,11 C21,8.79 19.21,7 17,7 C14.79,7 13,8.79 13,11 L13,23.5 C13,26.54 15.46,29 18.5,29 C21.54,29 24,26.54 24,23.5 L24,12 L22.5,12 L22.5,12 Z" transform="rotate(45 18.5 18)"/>
+  </g>
+</svg>

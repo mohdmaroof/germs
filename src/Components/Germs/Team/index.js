@@ -4,7 +4,14 @@ import { MenuBar } from "../../Germs";
 
 // Team pics
 
-import team1 from "../../../Assets/images/team/team1.PNG";
+import saifee_khan from "../../../Assets/images/team/3x/saifee_khan.png";
+import sam_khan from "../../../Assets/images/team/3x/sam_khan.png";
+import shahid_raza from "../../../Assets/images/team/3x/shahid_raza.png";
+import prasham_gupta from "../../../Assets/images/team/3x/prasham_gupta.png";
+import shashank_arya from "../../../Assets/images/team/3x/shashank_arya.png";
+import jahangir_alam from "../../../Assets/images/team/3x/jahangir_alam.png";
+import shahbaz_khan from "../../../Assets/images/team/3x/shahbaz_khan.png";
+import taki_khan from "../../../Assets/images/team/3x/taki_khan.png";
 import share_icon from "../../../Assets/images/Icons/share_icon.svg";
 
 // Social Icons
@@ -51,9 +58,86 @@ const Team = () => {
             <h1 className="mb-3">Our Team</h1>
             <div className="row">
               <div className="col-lg-3 col-xl-3 col-md-4 my-4">
-                <img className="w-100 rounded" src={team1} alt="Saif" />
+                <img className="w-100 rounded" src={saifee_khan} alt="Saif" />
                 <h3 className="mt-3">Saifee Khan</h3>
                 <p className="text-muted mb-0">Head of Design</p>
+                <img className="team-social" src={Linkedin} alt="Linkedin" />
+                <img
+                  className="team-social ml-2"
+                  src={share_icon}
+                  alt="Email"
+                />
+              </div>
+              <div className="col-lg-3 col-xl-3 col-md-4 my-4">
+                <img className="w-100 rounded" src={sam_khan} alt="Saif" />
+                <h3 className="mt-3">Sam Khan</h3>
+                <p className="text-muted mb-0">Business Manager</p>
+                <img className="team-social" src={Linkedin} alt="Linkedin" />
+                <img
+                  className="team-social ml-2"
+                  src={share_icon}
+                  alt="Email"
+                />
+              </div>
+              <div className="col-lg-3 col-xl-3 col-md-4 my-4">
+                <img className="w-100 rounded" src={shahid_raza} alt="Saif" />
+                <h3 className="mt-3">Shahid Raza</h3>
+                <p className="text-muted mb-0">Web & Graphic Designer</p>
+                <img className="team-social" src={Linkedin} alt="Linkedin" />
+                <img
+                  className="team-social ml-2"
+                  src={share_icon}
+                  alt="Email"
+                />
+              </div>
+              <div className="col-lg-3 col-xl-3 col-md-4 my-4">
+                <img className="w-100 rounded" src={prasham_gupta} alt="Saif" />
+                <h3 className="mt-3">Prasham Gupta</h3>
+                <p className="text-muted mb-0">UX Designer</p>
+                <img className="team-social" src={Linkedin} alt="Linkedin" />
+                <img
+                  className="team-social ml-2"
+                  src={share_icon}
+                  alt="Email"
+                />
+              </div>
+              <div className="col-lg-3 col-xl-3 col-md-4 my-4">
+                <img className="w-100 rounded" src={shashank_arya} alt="Saif" />
+                <h3 className="mt-3">Shashank Arya</h3>
+                <p className="text-muted mb-0">UX Specialist</p>
+                <img className="team-social" src={Linkedin} alt="Linkedin" />
+                <img
+                  className="team-social ml-2"
+                  src={share_icon}
+                  alt="Email"
+                />
+              </div>
+              <div className="col-lg-3 col-xl-3 col-md-4 my-4">
+                <img className="w-100 rounded" src={jahangir_alam} alt="Saif" />
+                <h3 className="mt-3">Jahangir Alam</h3>
+                <p className="text-muted mb-0">Head of Technology</p>
+                <img className="team-social" src={Linkedin} alt="Linkedin" />
+                <img
+                  className="team-social ml-2"
+                  src={share_icon}
+                  alt="Email"
+                />
+              </div>
+              <div className="col-lg-3 col-xl-3 col-md-4 my-4">
+                <img className="w-100 rounded" src={shahbaz_khan} alt="Saif" />
+                <h3 className="mt-3">Shahbaz Khan</h3>
+                <p className="text-muted mb-0">Digital Marketing Manger</p>
+                <img className="team-social" src={Linkedin} alt="Linkedin" />
+                <img
+                  className="team-social ml-2"
+                  src={share_icon}
+                  alt="Email"
+                />
+              </div>
+              <div className="col-lg-3 col-xl-3 col-md-4 my-4">
+                <img className="w-100 rounded" src={taki_khan} alt="Saif" />
+                <h3 className="mt-3">Taki Khan</h3>
+                <p className="text-muted mb-0">Social Media Manager</p>
                 <img className="team-social" src={Linkedin} alt="Linkedin" />
                 <img
                   className="team-social ml-2"

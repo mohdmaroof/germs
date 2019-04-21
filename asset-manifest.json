@@ -1,10 +1,10 @@
 {
   "main.css": "/germs/static/css/main.a043f011.chunk.css",
-  "main.js": "/germs/static/js/main.df438bbf.chunk.js",
-  "main.js.map": "/germs/static/js/main.df438bbf.chunk.js.map",
+  "main.js": "/germs/static/js/main.c19e904d.chunk.js",
+  "main.js.map": "/germs/static/js/main.c19e904d.chunk.js.map",
   "static/css/1.8a67a5cc.chunk.css": "/germs/static/css/1.8a67a5cc.chunk.css",
-  "static/js/1.e1aa3d71.chunk.js": "/germs/static/js/1.e1aa3d71.chunk.js",
-  "static/js/1.e1aa3d71.chunk.js.map": "/germs/static/js/1.e1aa3d71.chunk.js.map",
+  "static/js/1.23a0bf79.chunk.js": "/germs/static/js/1.23a0bf79.chunk.js",
+  "static/js/1.23a0bf79.chunk.js.map": "/germs/static/js/1.23a0bf79.chunk.js.map",
   "runtime~main.js": "/germs/static/js/runtime~main.1498bf13.js",
   "runtime~main.js.map": "/germs/static/js/runtime~main.1498bf13.js.map",
   "static/media/8_Client_logo.svg": "/germs/static/media/8_Client_logo.ea338caf.svg",
@@ -56,6 +56,6 @@
   "static/css/main.a043f011.chunk.css.map": "/germs/static/css/main.a043f011.chunk.css.map",
   "static/css/1.8a67a5cc.chunk.css.map": "/germs/static/css/1.8a67a5cc.chunk.css.map",
   "index.html": "/germs/index.html",
-  "precache-manifest.8ff8086d44ff24bbcc4316fa6eae63a6.js": "/germs/precache-manifest.8ff8086d44ff24bbcc4316fa6eae63a6.js",
+  "precache-manifest.e3fd81b71732983b0d3b9da1dbc34f07.js": "/germs/precache-manifest.e3fd81b71732983b0d3b9da1dbc34f07.js",
   "service-worker.js": "/germs/service-worker.js"
 }
